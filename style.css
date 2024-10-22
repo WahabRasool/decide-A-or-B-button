@@ -1,0 +1,84 @@
+@media screen and (max-width: 992px) {
+    html {
+      font-size: 1.5vw;
+    }
+  }
+  body {
+    background: #1B1B1B;
+  }
+  body > div {
+    display: flex;
+    margin: auto;
+    max-width: 90rem;
+  }
+  body > div > div {
+    flex: 1 1 auto;
+    text-align: center;
+    position: relative;
+  }
+  
+  label {
+    margin: 5rem auto 7rem;
+    font-size: 7rem;
+    color: #494949;
+    font-family: sans-serif;
+    display: block;
+  }
+  
+  button {
+    font-size: 3rem;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .btn-a {
+    border-radius: 6rem;
+    padding: 2.5rem 5.5rem;
+    background: radial-gradient(ellipse at 50% 150%, #cdb7e2, #9A6EC4, #040404);
+    border: none;
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1), inset 0 0 1rem 0 rgba(255, 255, 255, 0.25), 0 0 0 1.5rem rgba(255, 255, 255, 0.025);
+    transition: all 0.25s ease-in-out;
+  }
+  .btn-a:hover, .btn-afocus {
+    filter: contrast(1.3);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1), inset 0 0 1rem 0 rgba(255, 255, 255, 0.5), 0 0 0 1rem rgba(255, 255, 255, 0.05);
+  }
+  
+  .btn-b {
+    border-radius: 6rem;
+    background: none;
+    border: none;
+    color: rgba(255, 255, 255, 0);
+    font-size: 0.3rem;
+    width: 25rem;
+    height: 11rem;
+    position: relative;
+  }
+  .btn-b:hover:before, .btn-b:focus:before {
+    transform: rotate(-8deg) translate3d(-1rem, 0.5rem, 0);
+  }
+  .btn-b:hover:after, .btn-b:focus:after {
+    transform: rotate(8deg) translate3d(1.5rem, -1.5rem, 0);
+  }
+  .btn-b:before {
+    content: "";
+    width: 1.1em;
+    height: 1.1em;
+    border-radius: 0.2em;
+    background: #1FBC75;
+    position: absolute;
+    top: -0.6em;
+    left: 5rem;
+    box-shadow: 1em 0 0 #1FBC75, 2em 0 0 #1FBC75, 3em 0 0 #1FBC75, 4em 0 0 #1FBC75, 5em 0 0 #1FBC75, 6em 0 0 #1FBC75, 7em 0 0 #1FBC75, 8em 0 0 #1FBC75, 9em 0 0 #1FBC75, 10em 0 0 #1FBC75, 11em 0 0 #1FBC75, 12em 0 0 #1FBC75, 13em 0 0 #1FBC75, 14em 0 0 #1FBC75, 15em 0 0 #1FBC75, 16em 0 0 #1FBC75, 17em 0 0 #1FBC75, 18em 0 0 #1FBC75, 19em 0 0 #1FBC75, 20em 0 0 #1FBC75, 21em 0 0 #1FBC75, 22em 0.1em 0 #1FBC75, 23em 0.2em 0 #1FBC75, 19em -0.2em 0 #1FBC75, 20em -0.1em 0 #1FBC75, 22em 0 0 #1FBC75, 23em -0.1em 0 #1FBC75, 24em -0.2em 0 #1FBC75, 25em -0.2em 0 #1FBC75, 26em -0.2em 0 #1FBC75, 27em 0 0 #1FBC75, 28em 0.2em 0 #1FBC75, 29em 0.5em 0 #1FBC75, 30em 0.5em 0 #1FBC75, 31em 0.5em 0 #1FBC75, 32em 0.6em 0 #1FBC75, 33em 0.6em 0 #1FBC75, 34em 0.6em 0 #1FBC75, 35em 0.6em 0 #1FBC75, 36em 0.6em 0 #1FBC75, 37em 0.6em 0 #1FBC75, 38em 0.6em 0 #1FBC75, 39em 0.6em 0 #1FBC75, 40em 0.6em 0 #1FBC75, 41em 0.6em 0 #1FBC75, 42em 0.6em 0 #1FBC75, 43em 0.6em 0 #1FBC75, 44em 0.6em 0 #1FBC75, 45em 0.6em 0 #1FBC75, 46em 0.6em 0 #1FBC75, 47em 0.7em 0 #1FBC75, 48em 0.8em 0 #1FBC75, 49em 0.9em 0 #1FBC75, 50em 1.1em 0 #1FBC75, 51em 1.3em 0 #1FBC75, 52em 1.6em 0 #1FBC75, 53em 2em 0 #1FBC75, 54em 2.4em 0 #1FBC75, 55em 2.7em 0 #1FBC75, 56em 2.9em 0 #1FBC75, 57em 3.3em 0 #1FBC75, 57.5em 3.45em 0 #1FBC75, 58em 3.6em 0 #1FBC75, 58.5em 3.9em 0 #1FBC75, 59em 4.2em 0 #1FBC75, 59.5em 4.5em 0 #1FBC75, 60em 4.8em 0 #1FBC75, 60.5em 5.15em 0 #1FBC75, 61em 5.5em 0 #1FBC75, 61.5em 5.95em 0 #1FBC75, 62em 6.4em 0 #1FBC75, 62.5em 6.85em 0 #1FBC75, 63em 7.3em 0 #1FBC75, 63.5em 7.85em 0 #1FBC75, 64em 8.4em 0 #1FBC75, 64.25em 8.8em 0 #1FBC75, 64.5em 9.2em 0 #1FBC75, 64.75em 9.6em 0 #1FBC75, 65em 10em 0 #1FBC75, 65.15em 10.5em 0 #1FBC75, 65.3em 11em 0 #1FBC75, 65.5em 12em 0 #1FBC75, 65.4em 13em 0 #1FBC75, 65.3em 14em 0 #1FBC75, 65.1em 15em 0 #1FBC75, 64.9em 16em 0 #1FBC75, 64.6em 17em 0 #1FBC75, 64.4em 18em 0 #1FBC75, 64em 19em 0 #1FBC75, 63.8em 19.5em 0 #1FBC75, 63.6em 20em 0 #1FBC75, 63.4em 20.5em 0 #1FBC75, 63.2em 21em 0 #1FBC75, 62.95em 21.5em 0 #1FBC75, 62.7em 22em 0 #1FBC75, 62.25em 22.5em 0 #1FBC75, 61.8em 23em 0 #1FBC75, 61.4em 23.5em 0 #1FBC75, 61em 24em 0 #1FBC75, 60.5em 24.5em 0 #1FBC75, 60em 25em 0 #1FBC75, 59.5em 25.5em 0 #1FBC75, 59em 26em 0 #1FBC75, 58.4em 26.5em 0 #1FBC75, 57.8em 27em 0 #1FBC75, 57.15em 27.5em 0 #1FBC75, 56.5em 28em 0 #1FBC75, 55.75em 28.5em 0 #1FBC75, 55em 29em 0 #1FBC75, 54.25em 29.5em 0 #1FBC75, 53.5em 30em 0 #1FBC75, 52.5em 30.5em 0 #1FBC75, 51.5em 31em 0 #1FBC75, 50.75em 31.5em 0 #1FBC75, 50em 32em 0 #1FBC75, 49em 32.5em 0 #1FBC75, 48em 33em 0 #1FBC75, 47em 33.5em 0 #1FBC75, 46em 34em 0 #1FBC75, 45em 34.5em 0 #1FBC75, 44em 35em 0 #1FBC75, 43.375em 35.275em 0 #1FBC75, 42.75em 35.55em 0 #1FBC75, 42.125em 35.825em 0 #1FBC75, 41.5em 36.1em 0 #1FBC75, 41em 36.3em 0 #1FBC75, 40.5em 36.5em 0 #1FBC75, 39em 37em 0 #1FBC75, -16.5em 18em 0 #1FBC75, -16.4em 19em 0 #1FBC75, -16.3em 20em 0 #1FBC75, -16.2em 21em 0 #1FBC75, -16em 22em 0 #1FBC75, -15.7em 23em 0 #1FBC75, -15.2em 24em 0 #1FBC75, -14.5em 25em 0 #1FBC75, -14.15em 25.5em 0 #1FBC75, -13.8em 26em 0 #1FBC75, -13.4em 26.5em 0 #1FBC75, -13em 27em 0 #1FBC75, -12.5em 27.5em 0 #1FBC75, -12em 28em 0 #1FBC75, -11.25em 28.5em 0 #1FBC75, -10.5em 29em 0 #1FBC75, -9.5em 29.5em 0 #1FBC75, -9em 29.7em 0 #1FBC75, -8em 30em 0 #1FBC75, -7em 30.2em 0 #1FBC75, -6em 30.5em 0 #1FBC75, -5em 30.8em 0 #1FBC75, -4em 31.3em 0 #1FBC75, -3em 31.7em 0 #1FBC75, -2em 32em 0 #1FBC75, -1em 32.3em 0 #1FBC75, 0 32.7em 0 #1FBC75, 1em 33em 0 #1FBC75, 2em 33.3em 0 #1FBC75, 3em 33.6em 0 #1FBC75, 4em 33.8em 0 #1FBC75, 5em 33.9em 0 #1FBC75, 6em 34.2em 0 #1FBC75, 7em 34.4em 0 #1FBC75, 8em 34.6em 0 #1FBC75, 9em 34.8em 0 #1FBC75, 10em 35em 0 #1FBC75, 11em 35.2em 0 #1FBC75, 12em 35.3em 0 #1FBC75, 13em 35.5em 0 #1FBC75, 14em 35.7em 0 #1FBC75, 15em 35.8em 0 #1FBC75, 16em 36em 0 #1FBC75, 17em 36.2em 0 #1FBC75, 18em 36.4em 0 #1FBC75, 19em 36.5em 0 #1FBC75, 20em 36.6em 0 #1FBC75, 21em 36.7em 0 #1FBC75, 22em 36.7em 0 #1FBC75, 23em 36.8em 0 #1FBC75, 24em 36.8em 0 #1FBC75, 25em 36.9em 0 #1FBC75, 26em 36.9em 0 #1FBC75, 27em 37em 0 #1FBC75, 28em 37em 0 #1FBC75, 29em 37.1em 0 #1FBC75, 30em 37.1em 0 #1FBC75, 31em 37.2em 0 #1FBC75, 32em 37.2em 0 #1FBC75, 33em 37.1em 0 #1FBC75, 34em 37.2em 0 #1FBC75, 35em 37.3em 0 #1FBC75, 36em 37.4em 0 #1FBC75, 37em 37.3em 0 #1FBC75, 38em 37.3em 0 #1FBC75, 40em 36.8em 0 #1FBC75, -16.5em 17em 0 #1FBC75, -16.5em 16em 0 #1FBC75, -16.35em 15em 0 #1FBC75, -16.2em 14em 0 #1FBC75, -15.9em 13em 0 #1FBC75, -15.5em 12em 0 #1FBC75, -15.1em 11em 0 #1FBC75, -14.7em 10em 0 #1FBC75, -14.3em 9em 0 #1FBC75, -14.05em 8.5em 0 #1FBC75, -13.8em 8em 0 #1FBC75, -13.55em 7.5em 0 #1FBC75, -13.3em 7em 0 #1FBC75, -12.9em 6.5em 0 #1FBC75, -12.5em 6em 0 #1FBC75, -12em 5.5em 0 #1FBC75, -11.5em 5em 0 #1FBC75, -11em 4.5em 0 #1FBC75, -10.5em 4em 0 #1FBC75, -9.75em 3.5em 0 #1FBC75, -9em 3em 0 #1FBC75, -8.25em 2.5em 0 #1FBC75, -7.5em 2em 0 #1FBC75, -6.75em 1.6em 0 #1FBC75, -6em 1.2em 0 #1FBC75, -5em 0.95em 0 #1FBC75, -4em 0.7em 0 #1FBC75, -3.25em 0.5em 0 #1FBC75, -2.5em 0.3em 0 #1FBC75, -2em 0.3em 0 #1FBC75, -1.5em 0.2em 0 #1FBC75, -1em 0.1em 0 #1FBC75;
+  }
+  .btn-b:after {
+    content: "";
+    width: 0.8em;
+    height: 0.8em;
+    border-radius: 0.2em;
+    background: #ED3C27;
+    position: absolute;
+    top: 10em;
+    left: 2rem;
+    box-shadow: 0.8em 0.1em 0 #ED3C27, 1.2em 0.3em 0 #ED3C27, 1.6em 0.5em 0 #ED3C27, 2em 0.75em 0 #ED3C27, 2.4em 1em 0 #ED3C27, 2.8em 1.5em 0 #ED3C27, 3.2em 2em 0 #ED3C27, 3.2em 2.5em 0 #ED3C27, 3.2em 3em 0 #ED3C27, 3.2em 3.5em 0 #ED3C27, 3.2em 4em 0 #ED3C27, 3.1em 4.5em 0 #ED3C27, 3em 5em 0 #ED3C27, 2.5em 5.5em 0 #ED3C27, 2em 6em 0 #ED3C27, 1.5em 6.35em 0 #ED3C27, 1em 6.7em 0 #ED3C27, 0.5em 7.1em 0 #ED3C27, 0em 7.4em 0 #ED3C27, -0.5em 7.25em 0 #ED3C27, -1em 7em 0 #ED3C27, -0.5em 6.25em 0 #ED3C27, 0 6.25em 0 #ED3C27, 0.5em 6.25em 0 #ED3C27, 1em 6.4em 0 #ED3C27, 2em 6.7em 0 #ED3C27, 2.5em 6.75em 0 #ED3C27, 3em 6.8em 0 #ED3C27, 3.5em 6.85em 0 #ED3C27, 4em 6.9em 0 #ED3C27, 4.4em 7.2em 0 #ED3C27, 4.8em 7.5em 0 #ED3C27, 5.05em 8em 0 #ED3C27, 5.3em 8.5em 0 #ED3C27, 5.4em 9em 0 #ED3C27, 5.5em 9.5em 0 #ED3C27, 5.5em 10em 0 #ED3C27, 5.5em 10.5em 0 #ED3C27, 5.5em 11em 0 #ED3C27, 5.5em 11.5em 0 #ED3C27, 5.35em 12em 0 #ED3C27, 5.2em 12.5em 0 #ED3C27, 5em 12.75em 0 #ED3C27, 4.8em 13em 0 #ED3C27, 4.5em 13.2em 0 #ED3C27, 4.2em 13.4em 0 #ED3C27, 3.85em 13.475em 0 #ED3C27, 3.5em 13.55em 0 #ED3C27, 3.25em 13.625em 0 #ED3C27, 3em 13.7em 0 #ED3C27, 2.5em 13.8em 0 #ED3C27, 2em 13.9em 0 #ED3C27, 1.5em 13.95em 0 #ED3C27, 1em 14em 0 #ED3C27, 0.5em 13.85em 0 #ED3C27, 0em 13.7em 0 #ED3C27, -0.5em 13.5em 0 #ED3C27, -1em 13.3em 0 #ED3C27, -1.5em 13em 0 #ED3C27, -1.75em 12.8em 0 #ED3C27, -1.4em 12.2em 0 #ED3C27, -1.4em 11.4em 0 #ED3C27, -1.4em 10.8em 0 #ED3C27, -1.4em 10em 0 #ED3C27, -1.4em 9.2em 0 #ED3C27, -1.4em 8.4em 0 #ED3C27, -1.4em 7.6em 0 #ED3C27, -1.4em 6.8em 0 #ED3C27, -1.4em 6em 0 #ED3C27, -1.4em 5.8em 0 #ED3C27, -0.8em 0.2em 0 #ED3C27, -1.2em 0.35em 0 #ED3C27, -1.6em 0.5em 0 #ED3C27, -2em 0.75em 0 #ED3C27, -2.4em 1em 0 #ED3C27, -2.8em 1.5em 0 #ED3C27, -3.2em 2em 0 #ED3C27, -3.3em 2.5em 0 #ED3C27, -3.4em 3em 0 #ED3C27, -3.35em 3.5em 0 #ED3C27, -3.3em 4em 0 #ED3C27, -3.25em 4.5em 0 #ED3C27, -3.2em 5em 0 #ED3C27, -3.15em 5.5em 0 #ED3C27, -3.1em 6em 0 #ED3C27, -3.05em 6.5em 0 #ED3C27, -3em 7em 0 #ED3C27, -2.85em 7.5em 0 #ED3C27, -2.7em 8em 0 #ED3C27, -2.6em 8.5em 0 #ED3C27, -2.5em 9em 0 #ED3C27, -2.35em 9.5em 0 #ED3C27, -2.2em 10em 0 #ED3C27, -2.1em 10.5em 0 #ED3C27, -2em 11em 0 #ED3C27, 8em 7em 0 #1FBC75, 8em 7.5em 0 #1FBC75, 8em 8em 0 #1FBC75, 8em 8.5em 0 #1FBC75, 8em 9em 0 #1FBC75, 7.95em 9.5em 0 #1FBC75, 7.9em 10em 0 #1FBC75, 7.9em 10.5em 0 #1FBC75, 7.9em 11em 0 #1FBC75, 8.2em 11.7em 0 #1FBC75, 8.5em 12.4em 0 #1FBC75, 9em 12.7em 0 #1FBC75, 9.5em 13em 0 #1FBC75, 10em 13.2em 0 #1FBC75, 10.5em 13.4em 0 #1FBC75, 11em 13.3em 0 #1FBC75, 11.5em 13.2em 0 #1FBC75, 11.85em 12.85em 0 #1FBC75, 12.2em 12.5em 0 #1FBC75, 12.3em 12em 0 #1FBC75, 12.4em 11.5em 0 #1FBC75, 12.375em 11em 0 #1FBC75, 12.35em 10.5em 0 #1FBC75, 12.325em 10em 0 #1FBC75, 12.3em 9.5em 0 #1FBC75, 12.3em 9em 0 #1FBC75, 12.3em 8.5em 0 #1FBC75, 12.3em 8em 0 #1FBC75, 12.3em 7.5em 0 #1FBC75, 12.3em 7.15em 0 #1FBC75, 12.3em 6.8em 0 #1FBC75, 15em 6em 0 #ED3C27, 15.5em 6em 0 #ED3C27, 16em 6em 0 #ED3C27, 16.5em 6em 0 #ED3C27, 17em 6em 0 #ED3C27, 17.5em 6.05em 0 #ED3C27, 18em 6.1em 0 #ED3C27, 18.5em 6.1em 0 #ED3C27, 19em 6.1em 0 #ED3C27, 19.5em 6.15em 0 #ED3C27, 20em 6.2em 0 #ED3C27, 20.5em 6.25em 0 #ED3C27, 21em 6.3em 0 #ED3C27, 21.5em 6.3em 0 #ED3C27, 22em 6.3em 0 #ED3C27, 22.5em 6.35em 0 #ED3C27, 23em 6.4em 0 #ED3C27, 23.5em 6.4em 0 #ED3C27, 24em 6.4em 0 #ED3C27, 24.5em 6.4em 0 #ED3C27, 25em 6.4em 0 #ED3C27, 25.5em 6.4em 0 #ED3C27, 26em 6.4em 0 #ED3C27, 26.5em 6.35em 0 #ED3C27, 27em 6.3em 0 #ED3C27, 27.5em 6.3em 0 #ED3C27, 28em 6.3em 0 #ED3C27, 28.5em 6.275em 0 #ED3C27, 29em 6.25em 0 #ED3C27, 29.5em 6.225em 0 #ED3C27, 30em 6.2em 0 #ED3C27, 30.5em 6.2em 0 #ED3C27, 31em 6.2em 0 #ED3C27, 31.5em 6.2em 0 #ED3C27, 32em 6.2em 0 #ED3C27, 21em 7em 0 #8C54E0, 21em 7.5em 0 #8C54E0, 21em 8em 0 #8C54E0, 21em 8.5em 0 #8C54E0, 21em 9em 0 #8C54E0, 21em 9.5em 0 #8C54E0, 21em 10em 0 #8C54E0, 21em 10.5em 0 #8C54E0, 21em 11em 0 #8C54E0, 21em 11.5em 0 #8C54E0, 21em 12em 0 #8C54E0, 21em 12.5em 0 #8C54E0, 21em 13em 0 #8C54E0, 21em 13.5em 0 #8C54E0, 21em 14em 0 #8C54E0, 21em 14.5em 0 #8C54E0, 21em 15em 0 #8C54E0, 21em 15.5em 0 #8C54E0, 21em 16em 0 #8C54E0, 29em 7em 0 #ED3C27, 29em 7.5em 0 #ED3C27, 29em 8em 0 #ED3C27, 29em 8.5em 0 #ED3C27, 29em 9em 0 #ED3C27, 29em 9.5em 0 #ED3C27, 29em 10em 0 #ED3C27, 29em 10.5em 0 #ED3C27, 29em 11em 0 #ED3C27, 29em 11.5em 0 #ED3C27, 29em 12em 0 #ED3C27, 29em 12.5em 0 #ED3C27, 29em 13em 0 #ED3C27, 29em 13.5em 0 #ED3C27, 29em 14em 0 #ED3C27, 29em 14.5em 0 #ED3C27, 29em 15em 0 #ED3C27, 29em 15.5em 0 #ED3C27, 38.5em 5.5em 0 #8C54E0, 39em 5.6em 0 #8C54E0, 39.5em 5.7em 0 #8C54E0, 40em 5.8em 0 #8C54E0, 40.5em 5.9em 0 #8C54E0, 41em 6.2em 0 #8C54E0, 41.5em 6.5em 0 #8C54E0, 42em 6.65em 0 #8C54E0, 42.5em 6.8em 0 #8C54E0, 42.85em 7.15em 0 #8C54E0, 43.2em 7.5em 0 #8C54E0, 43.35em 8em 0 #8C54E0, 43.5em 8.5em 0 #8C54E0, 43.5em 8.75em 0 #8C54E0, 43.5em 9em 0 #8C54E0, 43.65em 9.5em 0 #8C54E0, 43.8em 10em 0 #8C54E0, 44em 10.5em 0 #8C54E0, 44.2em 11em 0 #8C54E0, 44.25em 11.5em 0 #8C54E0, 44.3em 12em 0 #8C54E0, 44.25em 12.5em 0 #8C54E0, 44.2em 13em 0 #8C54E0, 44.15em 13.5em 0 #8C54E0, 44.1em 14em 0 #8C54E0, 43.9em 14.5em 0 #8C54E0, 43.7em 15em 0 #8C54E0, 43.35em 15.5em 0 #8C54E0, 43em 16em 0 #8C54E0, 42.5em 16.25em 0 #8C54E0, 42em 16.5em 0 #8C54E0, 41.5em 16.6em 0 #8C54E0, 41em 16.7em 0 #8C54E0, 40.5em 16.7em 0 #8C54E0, 40em 16.7em 0 #8C54E0, 39.5em 16.65em 0 #8C54E0, 39em 16.6em 0 #8C54E0, 38.5em 16.5em 0 #8C54E0, 38em 16.4em 0 #8C54E0, 37.5em 16.2em 0 #8C54E0, 37em 16em 0 #8C54E0, 36.5em 15.65em 0 #8C54E0, 36em 15.3em 0 #8C54E0, 35.75em 14.95em 0 #8C54E0, 35.5em 14.6em 0 #8C54E0, 35.25em 14.2em 0 #8C54E0, 35em 13.8em 0 #8C54E0, 34.95em 13.4em 0 #8C54E0, 34.9em 13em 0 #8C54E0, 34.95em 12.5em 0 #8C54E0, 35em 12em 0 #8C54E0, 35.1em 11.5em 0 #8C54E0, 35.2em 11em 0 #8C54E0, 35.35em 10.5em 0 #8C54E0, 35.5em 10em 0 #8C54E0, 35.75em 9.5em 0 #8C54E0, 36em 9em 0 #8C54E0, 36.5em 8.5em 0 #8C54E0, 37em 8em 0 #8C54E0, 37.5em 7.5em 0 #8C54E0, 38em 7em 0 #8C54E0, 38.5em 6.75em 0 #8C54E0, 39em 6.5em 0 #8C54E0, 46em 2em 0 #1FBC75, 46.05em 2.5em 0 #1FBC75, 46.1em 3em 0 #1FBC75, 46.2em 3.5em 0 #1FBC75, 46.3em 4em 0 #1FBC75, 46.35em 4.5em 0 #1FBC75, 46.4em 5em 0 #1FBC75, 46.5em 5.5em 0 #1FBC75, 46.6em 6em 0 #1FBC75, 46.7em 6.5em 0 #1FBC75, 46.8em 7em 0 #1FBC75, 46.9em 7.5em 0 #1FBC75, 47em 8em 0 #1FBC75, 47.2em 8.5em 0 #1FBC75, 47.4em 9em 0 #1FBC75, 47.55em 9.5em 0 #1FBC75, 47.7em 10em 0 #1FBC75, 47.85em 10.5em 0 #1FBC75, 48em 11em 0 #1FBC75, 48.1em 11.5em 0 #1FBC75, 48.2em 12em 0 #1FBC75, 48.3em 12.5em 0 #1FBC75, 48.4em 13em 0 #1FBC75, 48.4em 13.25em 0 #1FBC75, 48.4em 13.5em 0 #1FBC75, 45em 3em 0 #ED3C27, 45.625em 3.25em 0 #ED3C27, 46.25em 3.5em 0 #ED3C27, 46.875em 3.75em 0 #ED3C27, 47.5em 4em 0 #ED3C27, 48.0625em 4.25em 0 #ED3C27, 48.625em 4.5em 0 #ED3C27, 49.1875em 4.75em 0 #ED3C27, 49.75em 5em 0 #ED3C27, 50.3125em 5.25em 0 #ED3C27, 50.875em 5.5em 0 #ED3C27, 51.4375em 5.75em 0 #ED3C27, 52em 6em 0 #ED3C27, 52.375em 6.25em 0 #ED3C27, 52.75em 6.5em 0 #ED3C27, 53.125em 6.75em 0 #ED3C27, 53.5em 7em 0 #ED3C27, 53.875em 7.25em 0 #ED3C27, 54.25em 7.5em 0 #ED3C27, 54.625em 7.75em 0 #ED3C27, 55em 8em 0 #ED3C27, 55.25em 8.25em 0 #ED3C27, 55.5em 8.5em 0 #ED3C27, 55.75em 8.75em 0 #ED3C27, 56em 9em 0 #ED3C27, 56.375em 9.25em 0 #ED3C27, 56.75em 9.5em 0 #ED3C27, 57.125em 9.75em 0 #ED3C27, 57.5em 10em 0 #ED3C27, 57.4em 9em 0 #ED3C27, 57.3em 8.5em 0 #ED3C27, 57.2em 8em 0 #ED3C27, 57.05em 7.5em 0 #ED3C27, 56.9em 7em 0 #ED3C27, 56.8em 6.5em 0 #ED3C27, 56.7em 6em 0 #ED3C27, 56.6em 5.5em 0 #ED3C27, 56.5em 5em 0 #ED3C27, 56.45em 4.5em 0 #ED3C27, 56.4em 4em 0 #ED3C27, 56.35em 3.5em 0 #ED3C27, 56.3em 3em 0 #ED3C27, 56.3em 2.5em 0 #ED3C27, 56.3em 2em 0 #ED3C27, 56.3em 1.5em 0 #ED3C27, 56.3em 1em 0 #ED3C27, 56.25em 0.5em 0 #ED3C27, 56.2em 0em 0 #ED3C27, 56.15em -0.5em 0 #ED3C27, 56.1em -1em 0 #ED3C27, 56.05em -1.5em 0 #ED3C27, 56em -2em 0 #ED3C27, 56em -2.5em 0 #ED3C27, 56em -3em 0 #ED3C27;
+  }
